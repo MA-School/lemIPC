@@ -5,7 +5,7 @@
 ** Login   <aubanel_m@epitech.net>
 **
 ** Started on  Sun Apr 02 17:35:21 2017 aubanel_m
-** Last update Sun Apr  2 17:35:36 2017 Aubanel Maxime
+** Last update Sat Aug 19 23:44:11 2017 sshSupreme
 */
 
 #include "LemiPC.h"
@@ -16,6 +16,7 @@ int               Print_map(int *map, t_info *info)
   int             x;
 
   y = -1;
+  (void)map;
   while (++y != __MAP_SIZE__)
     {
       x = -1;
@@ -23,12 +24,12 @@ int               Print_map(int *map, t_info *info)
         {
           if (Use_sem(info->sem_id) == -1)
             return (-1);
-          my_putchar(map[(__MAP_SIZE__ * y) + x] + '0');
+          // my_putchar(map[(__MAP_SIZE__ * y) + x] + '0');
           Release_sem(info->sem_id);
         }
-      my_putchar('\n');
+      // my_putchar('\n');
     }
-  my_putchar('\n');
-  my_putchar('\n');
+  // my_putchar('\n');
+  // my_putchar('\n');
   return (0);
 }
