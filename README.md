@@ -1,4 +1,4 @@
-made by Maxime Aubanel
+made by Maxime Aubanel in 1 week
 
 REQUIREMENTS:
 - Linux Environment
