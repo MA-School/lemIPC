@@ -1,5 +1,7 @@
 # lemIPC
 
+> https://medium.com/@maximeaubanel/lemipc-ea969cfe1cdd
+
 The goal is to fight players (spread over several teams) on a two dimensions game
 board.
 
